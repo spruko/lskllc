@@ -1,0 +1,9 @@
+node_modules/
+*.log
+texttoimage
+obfuscator
+plugins_Originalnames_encryptednames.txt
+.git
+src-decrypted
+src-encrypted
+.vscode
