@@ -9,7 +9,7 @@
             "laravelLara\\lskllc\\Console\\Commands\\": "src/Files"
         },
         "files": [
-            "src/utils/Operation.php"
+            "src/utils/Undertaking.php"
         ]
     },
     "authors": [
