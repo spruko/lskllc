@@ -43,7 +43,7 @@
                         @yield('container')
                     </div>
                 </div>
-                <div class="copyright"> Copyright © {{ now()->format('Y') }} <a href="javascript:void(0);">Uhelp</a>. Developed by <a href="javascript:void(0);"> Spruko Technologies Pvt.Ltd. </a> All rights reserved </div>
+                <div class="copyright"> Copyright © {{ now()->format('Y') }} <a href="javascript:void(0);">LivaChat</a>. Developed by <a href="javascript:void(0);"> Spruko Technologies Pvt.Ltd. </a> All rights reserved </div>
             </div>
         </div>
     </body>
