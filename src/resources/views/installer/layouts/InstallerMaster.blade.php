@@ -35,7 +35,7 @@
                             <i class="step__icon fa fa-user" aria-hidden="true"></i>
                         </li>
                         <li class="step__divider"></li>
-                        <li class="step__item {{ isActive('SprukoAppInstaller::environment')}} {{ isActive('SprukoAppInstaller::environmentWizard')}} {{ isActive('SprukoAppInstaller::environmentClassic')}}" {{ isActive('SprukoAppInstaller::chooseenvironment')}} {{ isActive('SprukoAppInstaller::importsql')}}">
+                        <li class="step__item {{ isActive('SprukoAppInstaller::environment')}} {{ isActive('SprukoAppInstaller::environmentWizard')}} {{ isActive('SprukoAppInstaller::environmentClassic')}} {{ isActive('SprukoAppInstaller::chooseenvironment')}} {{ isActive('SprukoAppInstaller::importsql')}}">
                             @if(Request::is('install/environment') || Request::is('install/environment/wizard') || Request::is('install/environment/classic') ||  Request::is('install/chooseenvironment') ||  Request::is('install/importsql') )
                                 <a href="{{ route('SprukoAppInstaller::environment') }}">
                                     <i class="step__icon fa fa-cog" aria-hidden="true"></i>
@@ -92,7 +92,7 @@
                         @yield('container')
                     </div>
                 </div>
-                <div class="copyright"> Copyright © {{ now()->format('Y') }} <a href="javascript:void(0);">Uhelp</a>. Developed by <a href="javascript:void(0);"> Spruko Technologies Pvt.Ltd. </a> All rights reserved </div>
+                <div class="copyright"> Copyright © {{ now()->format('Y') }} <a href="javascript:void(0);">LivaChat</a>. Developed by <a href="javascript:void(0);"> Spruko Technologies Pvt.Ltd. </a> All rights reserved </div>
             </div>
 
 
