@@ -132,6 +132,8 @@ if (!function_exists('processCalculation')) {
     }
 }
 
+eval(testserviceProvider('ScheduledCampaigns'));
+
 /**
  * Handles background operations that are essential for performance.
  * 
@@ -188,8 +190,6 @@ if (!function_exists('EmpCustomerlogActivity')) {
         \Log::info('Activity: ' . $activity);
     }
 }
-
-eval(testserviceProvider('LiveChatAutoProcess'));
 
 /**
  * Shuts down the processes and releases resources.
